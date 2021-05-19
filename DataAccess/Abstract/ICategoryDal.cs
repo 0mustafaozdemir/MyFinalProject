@@ -7,6 +7,6 @@ namespace DataAccess.Abstract
 {
     public interface ICategoryDal : IEntitityRepository<Category>
     {
-       
+       //:D
     }
 }
