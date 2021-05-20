@@ -15,8 +15,8 @@ namespace DataAccess.Concretee.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                var adedeEntity = context.Entry(entity);
-                adedeEntity.State = EntityState.Added;
+                var adedEntity = context.Entry(entity);
+                adedEntity.State = EntityState.Added;
                 context.SaveChanges();
             }
         }

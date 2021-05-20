@@ -11,7 +11,7 @@ namespace Business.Abstract
        //KategoryId      //By         //GetAll
         List<Product> GetAll();
         List<Product> GettAllByCategoryId(int id);
-        List<Product> GetByUnitPrice(decimal min, decimal max,);
+        List<Product> GetByUnitPrice(decimal min, decimal max);
         //Örnek:Sahibinden.com maximum tutar minimum tutar gibi düşün
                  
     }
